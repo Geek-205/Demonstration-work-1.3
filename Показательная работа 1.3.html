@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Показательная работа</title>
+<link rel="stylesheet"  href="style.css">
+<script src = "script.js"></script>
+</head>
+
+<body>
+<center>
+
+<h1><strong>Показательная работа</strong></h1>
+
+<div id = "Container">
+    <div class = ObjFrame1>
+        <table>
+            <h3>Опрос</h3>
+            <tbody>
+            <tr><td>Как тебя зовут?</td>  <td><input type = "text" placeholder = "  Фамилия студента" id="surame" ></td></tr>
+            <tr><td>&nbsp;         </td>  <td><input type = "text" placeholder = "  Имя студента" id = "name"></td></tr>  
+    
+            <tr><td>Сколько тебе <br>лет?</td>   <td><input type = "text" placeholder = "  Возраст..." id="Journey"></td></tr>
+    
+            <tr><td>Где ты учишся?  <td><input type = "text" placeholder = "  Место учебы..." id="Country"></td></tr>
+                    
+            </tbody>
+    
+        </table>
+        <input type = "submit" value = "Отправить" onclick="SubmitForm1()">
+    </div>
+    
+    <br><br>
+    
+    <div id = "ObjFrame2">
+        <table>
+            <h3>Результат</h3>
+            <br>
+            <div id = "Conclusion"></div>
+        </table>
+    
+    </div>
+</div>
+
+</center>
+</body>
+</html>
